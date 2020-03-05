@@ -1,0 +1,377 @@
+#vb-sidebar .sidebar-button {
+    -fx-background-color:white;
+    -fx-text-fill: black;
+    -fx-cursor:hand;
+}
+
+#vb-sidebar .sidebar-button:hover {
+    -fx-background-color:#33ff33;
+    -fx-text-fill: green;
+    -fx-cursor:hand;
+}
+
+#vb-sidebar .sidebar-button-active {
+    -fx-background-color:#33ff33;
+    -fx-text-fill: green;
+    -fx-cursor:hand;
+}
+
+#vb-sidebar .slider-button {
+    -fx-background-color:#33ff33;
+    -fx-text-fill: white;
+    -fx-cursor:hand;
+}
+
+
+#vb-sidebar .slider-button:hover {
+    -fx-background-color:#66ff66;
+    -fx-text-fill: green;
+    -fx-cursor:hand;
+}
+
+#vb-sidebar {
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.30), 15, 0.3, 10, 0);
+    -fx-pref-height: 437px;
+    -fx-pref-width: 280px;
+}
+
+#sidebarHeader {
+    -fx-background-color: #2196F3;
+    -fx-background-image: url("/resources/images/header.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-pref-height: 146px;
+}
+
+#actionFrame {
+    -fx-background-image: url("/resources/images/bg1.png");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+
+#iconNavigator {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-pref-width: 230px;
+}
+
+#menuButton {
+    -fx-background-color: white;
+    -fx-cursor:hand;
+}
+
+#menuEdit {
+    -fx-background-color: #EEEEEE;
+}
+
+#shadowBox {
+    -fx-background-color: #000000;
+    -fx-opacity: 0.6;
+
+}
+
+#nicknameText {
+    -fx-font: 12px System;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#infoNameText {
+    -fx-font: 12px System;
+    -fx-text-fill: white;
+}
+
+.dehaze {
+    -icon-paint: #777777;
+    -fx-content-display: graphic-only;
+    -fx-background-color: white;
+    -fx-cursor:hand;
+}
+
+.dehaze:hover {
+    -icon-paint: #000000;
+}
+
+.dehaze .icon {
+    -fx-background-color: -icon-paint;
+    -size: 14;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M2 15.5v2h20v-2H2zm0-5v2h20v-2H2zm0-5v2h20v-2H2z";
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/resources/fonts/Roboto-Black.ttf');
+}
+
+.sidebar-icon-button {
+    -icon-paint: #777777;
+    -fx-content-display: left;
+    -fx-alignment: baseline_left;
+    -fx-graphic-text-gap: 20;
+    -fx-padding: 10 0 10 25;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 280px;
+    -fx-background-color: white;
+    -fx-cursor:hand;
+    -fx-text-fill: #777777;
+    -fx-font-family: "Roboto";
+    -fx-font-family: "Oblique";
+}
+
+.sidebar-icon-button:hover {
+    -icon-paint: black;
+    -fx-background-color: #EEEEEE;
+    -fx-text-fill: black;
+}
+
+.sidebar-icon-button .info-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z";
+}
+
+.sidebar-icon-button .settings-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z";
+}
+
+.sidebar-icon-button .edit-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z";
+}
+
+.sidebar-icon-button .logout-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M10.09,15.59L11.5,17l5-5l-5-5l-1.41,1.41L12.67,11H3v2h9.67L10.09,15.59z M19,3H5C3.89,3,3,3.9,3,5v4h2 V5h14v14H5v-4H3v4c0,1.1,0.89,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z";
+}
+
+.sidebar-icon-button .skype-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M22.987 13.966c1.357-7.765-5.416-14.412-13.052-12.979-5.821-3.561-12.503 3.226-8.935 9.029-1.387 7.747 5.384 14.48 13.083 13.01 5.832 3.536 12.493-3.26 8.904-9.06zm-10.603 5.891c-3.181 0-6.378-1.448-6.362-3.941.005-.752.564-1.442 1.309-1.442 1.873 0 1.855 2.795 4.837 2.795 2.093 0 2.807-1.146 2.807-1.944 0-2.886-9.043-1.117-9.043-6.543 0-2.938 2.402-4.962 6.179-4.741 3.602.213 5.713 1.803 5.917 3.289.101.971-.542 1.727-1.659 1.727-1.628 0-1.795-2.181-4.6-2.181-1.266 0-2.334.528-2.334 1.674 0 2.395 8.99 1.005 8.99 6.276-.001 3.039-2.423 5.031-6.041 5.031z";
+}
+
+.sidebar-icon-button .vk-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.344 16.163h-1.867c-1.055 0-1.232-.601-2.102-1.469-.785-.785-1.22-.183-1.202.935.006.297-.141.534-.495.534-1.105 0-2.694.156-4.304-1.58-1.647-1.779-3.374-5.348-3.374-5.699 0-.208.172-.301.459-.301h1.898c.503 0 .545.249.686.568.584 1.331 1.981 4.002 2.354 2.511.214-.856.301-2.839-.615-3.01-.52-.096.396-.652 1.722-.652.33 0 .688.035 1.054.12.673.156.676.458.666.898-.034 1.666-.235 2.786.204 3.069.419.271 1.521-1.502 2.104-2.871.159-.378.191-.632.643-.632h2.322c1.216 0-.159 1.748-1.21 3.112-.847 1.099-.802 1.12.183 2.034.701.651 1.53 1.54 1.53 2.043 0 .238-.186.39-.656.39z";
+}
+
+.sidebar-icon-button .fb-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z";
+}
+
+.sidebar-icon-button .tg-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z";
+}
+
+.write-icon-button {
+    -icon-paint: #777777;
+    -fx-content-display: graphic-only;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-color: white;
+    -fx-cursor:hand;
+}
+
+.write-icon-button:hover {
+    -icon-paint: black;
+}
+
+.write-icon-button .send-icon {
+    -fx-background-color: -icon-paint;
+    -size: 18;
+    -fx-min-height: -size;
+    -fx-min-width: -size;
+    -fx-max-height: -size;
+    -fx-max-width: -size;
+
+    -fx-shape: "M2.01 21L23 12 2.01 3 2 10l15 2-15 2z";
+}
+
+.message-box {
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+
+    -fx-padding: 10 20 20 20;
+    -fx-background-insets: 0 10 10 10;
+}
+
+
+.list-cell {
+    -fx-background-color: transparent;
+}
+
+.list-cell:selected
+{
+   -fx-background-color: #00A3E8;
+   -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+}
+
+.write-box {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 0 5 0 1;
+    -fx-background-insets: 0 0 0 1;
+}
+
+.write-message-field {
+    -fx-background-color: -fx-control-inner-background;
+    -fx-background-insets: 0;
+    -fx-padding: 1 3 1 20;
+}
+
+.chat-list {
+    -fx-padding: 10 0 10 10;
+}
+
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical .track:hover {
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical .track-background {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(170,170,170, 0.3);;
+    -fx-background-insets: 0 4 0 4;
+    -fx-background-radius: 2em;
+
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgba(170,170,170, 0.7);
+    -fx-cursor:hand;
+}
+
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: transparent;
+}
+
+.corner {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical:focused {
+    -fx-background-color: transparent,rgb(100, 100, 100),rgb(96,96,96);
+}
+
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding: 0;
+}
+
+#ContactHeader {
+    -fx-background-color: #00A3E8;
+    -fx-text-fill: white;
+}
+
+#vkHeaderButton {
+    -fx-text-fill: white;
+    -icon-paint: white;
+    -fx-content-display: center;
+    -fx-alignment: baseline_center;
+    -fx-graphic-text-gap: 0;
+    -fx-padding: 0;
+    -fx-pref-height: 26px;
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+    -fx-font-family: "Roboto";
+}
+
+#skypeHeaderButton {
+    -fx-text-fill: white;
+    -icon-paint: white;
+    -fx-content-display: center;
+    -fx-alignment: baseline_center;
+    -fx-graphic-text-gap: 0;
+    -fx-padding: 0;
+    -fx-pref-height: 26px;
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+    -fx-font-family: "Roboto";
+}
